@@ -1,4 +1,4 @@
-# picobus
+# 🚎 picobus
 A lightweight, dependency-free event emitter for JavaScript and Node.js. Ideal for managing state transitions, building FSMs, and wiring up simple pub/sub flows.
 
 # Features
@@ -23,9 +23,9 @@ npm test
 
 # Usage
 ```js
-import { EventBus } from './eventbus.js';
+import { PicoBus } from 'picobus';
 
-const bus = new EventBus();
+const bus = new PicoBus();
 
 function onFoo(data) {
   console.log('Got foo:', data);
